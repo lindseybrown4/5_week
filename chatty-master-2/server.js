@@ -33,6 +33,7 @@ app.post('/', function(reqie, respie){
      var ourId = req.params.id; 
      res.send("Your id is " + ourId);
      
+     
      //req.params." something" tells it what parameter to pull out of the url. to the right of the colon
      
  })
